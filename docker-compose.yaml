@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  sheetsonpaper:
+    build: .
+    volumes:
+    - ./:/sheetsonpaper
+    ports:
+      - 8000:8000
